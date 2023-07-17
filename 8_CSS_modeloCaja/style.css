@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; /* para que le reste padding y border a las medidas de width y height que indico en los contenedores */
+}
+
+.caja-contenedor{
+    width: 100%;
+    height: 500px;
+    border: 10px solid gray;  
+}
+
+.caja-contenedor__objeto{
+    font-size: 10px;
+    width: calc(100%-10px);
+}
