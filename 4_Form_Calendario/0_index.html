@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Forms</title>
 </head>
 <body>
     <form action="">
@@ -52,10 +52,36 @@
     <br>
     <br>
     <br>
-    <span>OTRA FORMA DE CALENDARIO</span>
+    <span>Required and autocomplete</span>
     <br>
     <br>
     <br>
+
+    <form action="">
+        <label for="nombre">
+            <span>Nombre</span>
+            <input type="text" id="nombre" name="nombre" autocomplete="on" required>
+        </label>  <br>
+
+        <label for="email">
+            <span>Email</span>
+            <input type="email" id="email" name="email" autocomplete="on" required>
+        </label>  <br>
+
+        <label for="pais">
+            <span>Pais</span>
+            <input type="pais" name="pais" id="pais" autocomplete="on" required>
+        </label>  <br>
+
+        <label for="cp">
+            <span>Pais</span>
+            <input type="text" name="cp" id="cp" autocomplete="on" required>
+        </label>  <br>  <br>
+
+        <input type="submit" value="Enviar">
+
+
+    </form>
 
 </body>
 </html>
