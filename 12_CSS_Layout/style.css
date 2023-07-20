@@ -8,12 +8,12 @@ html{
     font-size: 6.25%;
 }
 
-body{
+/* body{
     position: relative;
     width: 100vw;
     height: 100vh;
     background-color: red;
-}
+} */
 
 .header{
     height: 10vh;
@@ -83,7 +83,7 @@ body{
     height: 5vh ;
     width: 100vw;
     background-color: blue;
-    font-size: 16rem;
+    font-size: 24rem;
     display: inline-block;
 }
 
